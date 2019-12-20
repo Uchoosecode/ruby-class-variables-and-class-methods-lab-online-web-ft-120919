@@ -21,7 +21,7 @@ class Song
     @@count
   end
   
-  def self.artist
+  def self.artists
     @@artists.uniq 
   end
   
@@ -30,10 +30,8 @@ class Song
   end
   
   def self.artists
-   artist_count = []
-    @@artists.each do |artist| 
-      artist.uniq 
-    end
+  
+    
   end
   
 end

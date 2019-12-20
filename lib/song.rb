@@ -32,7 +32,7 @@ class Song
   def self.artists_count
    sorted = {}
     artist.each do |singer, songs|
-      sorted[singer] = @@count
+      sorted[singer] = songs.count
     end
     sorted
   end

@@ -30,10 +30,11 @@ class Song
   end
   
   def.artists_count(name)
-  sorted = {}
-    @@artists.each do |artist|
-      artist_count[artist] += 1}
-    sorted
+    artist_count = {}
+      @@artists.each do |artist|
+        artist_count[artist] += 1
+      end
+    artist_count
   end
   
   

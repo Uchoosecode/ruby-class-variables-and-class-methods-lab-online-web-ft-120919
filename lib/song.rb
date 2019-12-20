@@ -32,7 +32,7 @@ class Song
   def self.artists_count
    artist_count = {}
     @@artists.each do |artist| 
-      artist_count[artist] += 1
+      artist_count[artist].uniq += 1
     end
     artist_count
   end

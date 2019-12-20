@@ -29,7 +29,7 @@ class Song
     @@genres.uniq
   end
   
-  def self.artists_count
+  def self.artists
    artist_count = {}
     @@artists.each do |artist| 
       artist_count[artist].uniq += 1

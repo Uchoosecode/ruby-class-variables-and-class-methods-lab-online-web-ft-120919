@@ -29,11 +29,10 @@ class Song
     @@genres.uniq
   end
   
-  def.artists_count(name, song)
+  def.artists_count(name)
   sorted = {}
-    .each do |grade, students|
-      sorted[grade] = students.sort
-    end
+    @@artists.each do |artist|
+      artist_count[artist] += 1}
     sorted
   end
   

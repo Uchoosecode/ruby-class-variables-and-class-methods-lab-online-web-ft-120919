@@ -29,11 +29,7 @@ class Song
     @@genres.uniq
   end
   
-  def self.artists
-  
-    
-  end
-  
+
 end
 
     #   if artist_count[artist] #if the artist is already in the hash

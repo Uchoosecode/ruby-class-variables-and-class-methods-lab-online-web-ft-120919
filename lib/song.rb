@@ -3,7 +3,7 @@ require 'pry'
 class Song 
   @@count = 0 
   @@artists = []
-    attr_accessor :name, :artists, :genre 
+    attr_accessor :name, :artist, :genre 
   
   
     def initialize(name, artist, genre)
